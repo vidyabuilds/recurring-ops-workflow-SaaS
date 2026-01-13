@@ -10,6 +10,7 @@ Ship the smallest product that reliably executes recurring work with clear owner
 **Leading indicators:**
 - Median time-to-complete (created → completed)
 - Reminder engagement rate (% reminders that lead to task opened within 24h)
+- % tasks overdue (due date + 24h grace)
 
 ## MVP v1 Bundle (Must-have)
 1) **Recurring workflows**
@@ -30,6 +31,10 @@ Ship the smallest product that reliably executes recurring work with clear owner
 
 4) **Reminders (MVP default schedule)**
 - Configure reminders (default on)
+- Default schedule (MVP):
+  - 24h before due
+  - Same-day reminder (9am or due-time)
+  - Overdue reminder (24h after due)
 - Reminders triggered before due / on due / overdue
 
 5) **Basic visibility (MVP-lite, recommended)**
@@ -53,7 +58,6 @@ Ship the smallest product that reliably executes recurring work with clear owner
 5. Workflow list (manage workflows)
 
 **Member**
-
 6. My Tasks (Due Today / Upcoming / Overdue)
 7. Task detail
 8. Completion confirmation / history view (simple)
@@ -62,25 +66,24 @@ Ship the smallest product that reliably executes recurring work with clear owner
 - **Workspace** (id, name, created_by)
 - **User** (id, email, name)
 - **Membership** (workspace_id, user_id, role: admin/member)
-- **Workflow** (id, workspace_id, name, description, recurrence_rule, start_date, due_time)
+- **Workflow** (id, workspace_id, name, description, definition_of_done, recurrence_rule, start_date, due_time)
 - **AssignmentRule** (workflow_id, type: round_robin, members_in_rotation)
 - **TaskInstance** (id, workflow_id, due_at, assignee_user_id, status: open/completed/overdue)
 - **TaskCompletion** (task_instance_id, completed_at, completed_by)
 
 ## Analytics / Events (MVP)
-
-Admin
+**Admin**
 - `workflow_create_started`
 - `workflow_published`
 - `tasks_generated`
 - `reminders_configured`
 
-Member
+**Member**
 - `my_tasks_viewed`
 - `task_opened`
 - `task_completed`
 
-Admin monitoring
+**Admin monitoring**
 - `dashboard_viewed`
 - `overdue_list_viewed`
 - `nudge_sent`
@@ -92,7 +95,7 @@ Admin monitoring
 
 **Member completion**
 - Member can find “Due Today” in **<10 seconds**
-- Member can complete a task in **<60 seconds** with 0 critical confusion
+- Member can complete a task in **<60 seconds** with **0 critical confusion points**
 
 **Reliability**
 - Overdue status updates correctly (based on due_at + grace)
@@ -101,7 +104,8 @@ Admin monitoring
 ## Validation Plan
 **Usability test (5 users):**
 - Admin journey: create → assign → reminders → publish
-- Member journey: My Tasks → open → complete  
+- Member journey: My Tasks → open → complete
+
 **Pilot (7–14 days):**
 - Run MVP v1 bundle with 1 household/team
 - Success: ≥20% reduction in overdue rate vs baseline week
