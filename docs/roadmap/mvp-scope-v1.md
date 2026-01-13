@@ -67,15 +67,18 @@ Ship the smallest product that reliably executes recurring work with clear owner
 - **TaskCompletion** (task_instance_id, completed_at, completed_by)
 
 ## Analytics / Events (MVP)
+
 Admin
 - `workflow_create_started`
 - `workflow_published`
 - `tasks_generated`
 - `reminders_configured`
+
 Member
 - `my_tasks_viewed`
 - `task_opened`
 - `task_completed`
+
 Admin monitoring
 - `dashboard_viewed`
 - `overdue_list_viewed`
