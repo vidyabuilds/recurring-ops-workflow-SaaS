@@ -1,4 +1,4 @@
-# GTM v1 — Positioning + Pricing/Packaging (Mock)
+# GTM v1 - Positioning + Pricing/Packaging (Mock)
 
 ## 1) Positioning
 **One-liner:** A workflow system that automates recurring responsibilities with clear ownership, reminders, and visibility to reduce overdue work.
