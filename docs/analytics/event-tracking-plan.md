@@ -45,6 +45,7 @@ Each event should include:
 **Properties:**
 - `source` (template|blank)
 - `template_name` (if template)
+
 **Why:** Measures funnel entry / intent
 
 ### 2) workflow_published
@@ -54,6 +55,7 @@ Each event should include:
 - `recurrence` (daily|weekly|monthly)
 - `due_time_set` (true/false)
 - `members_in_rotation_count 
+
 **Why:** Primary activation event for Admin
 
 ### 3) tasks_generated
@@ -62,6 +64,7 @@ Each event should include:
 - `workflow_id`
 - `task_instances_generated_count`
 - `preview_window_days` (e.g., 7/14)
+
 **Why:** Confirms core engine is working
 
 ### 4) reminders_configured
@@ -72,6 +75,7 @@ Each event should include:
 - `pre_due_hours` (e.g., 24)
 - `same_day_time` (e.g., 09:00)
 - `overdue_hours` (e.g., 24)
+
 **Why:** Links reminders to overdue reduction
 
 ## Member Events
@@ -81,6 +85,7 @@ Each event should include:
 - `due_today_count`
 - `overdue_count`
 - `upcoming_count`
+
 **Why:** Measures engagement and task load
 
 ### 6) task_opened
@@ -89,6 +94,7 @@ Each event should include:
 - `task_instance_id`
 - `workflow_id`
 - `task_status` (open|overdue)
+
 **Why:** Helps compute reminder engagement (opened after reminder)
 
 ### 7) task_completed
@@ -98,6 +104,7 @@ Each event should include:
 - `workflow_id`
 - `task_status_before` (open|overdue)
 - `completion_method` (button)
+
 **Why:** Core conversion event
 
 ### 8) task_reopened (guardrail)
@@ -106,6 +113,7 @@ Each event should include:
 - `task_instance_id`
 - `workflow_id`
 - `minutes_since_completion`
+
 **Why:** Accidental completion rate
 
 ## Admin Monitoring Events (MVP-lite)
@@ -114,6 +122,7 @@ Each event should include:
 **Properties:**
 - `overdue_count`
 - `on_time_rate` (optional if computed client-side)
+
 **Why:** Measures visibility usage
 
 ### 10) overdue_list_viewed
@@ -121,6 +130,7 @@ Each event should include:
 **Properties:**
 - `filter_workflow_id` (optional)
 - `overdue_count`
+
 **Why:** Measures intervention funnel
 
 ### 11) nudge_sent
@@ -129,6 +139,7 @@ Each event should include:
 - `task_instance_id` (optional)
 - `assignee_user_id`
 - `channel` (in_app|email)
+
 **Why:** Measures manual follow-up burden
 
 ## Event-to-Metric Mapping
