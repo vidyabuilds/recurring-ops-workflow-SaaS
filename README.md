@@ -5,8 +5,8 @@ A multi-tenant workflow SaaS that automates recurring operational tasks with own
 **Desired outcome:** Reduce overdue recurring tasks by **40% in 30 days** (after adoption).
 
 **Status:** Discovery + documentation in progress.  
-**Build journal:** 
-- [docs/journal/2026-01-12.md](docs/journal/2026-01-12.md)
+**Build journal:**  
+- [docs/journal/2026-01-12.md](docs/journal/2026-01-12.md)  
 - [docs/journal/2026-01-13.md](docs/journal/2026-01-13.md)
 
 ---
@@ -17,10 +17,18 @@ A multi-tenant workflow SaaS that automates recurring operational tasks with own
 ![Opportunity Solution Tree](docs/assets/opportunity-solution-tree.jpg)
 
 ---
+
 ## Key Artifact: User Journeys (FigJam)
 - [View full-size User Flows (MVP v1)](docs/assets/user-flows-mvp-v1.png)
 
 ![User Flows — MVP v1](docs/assets/user-flows-mvp-v1.png)
+
+---
+
+## Key Artifact: ERD (Data Model)
+- [View full-size ERD](/docs/assets/erd-mvp-v1.png.png)
+
+![ERD — MVP v1](/docs/assets/erd-mvp-v1.png.png)
 
 ---
 
@@ -33,4 +41,6 @@ A multi-tenant workflow SaaS that automates recurring operational tasks with own
 - Risks & Assumptions: [docs/roadmap/risks-and-assumptions.md](docs/roadmap/risks-and-assumptions.md)
 - Release Plan v1: [docs/roadmap/release-plan-v1.md](docs/roadmap/release-plan-v1.md)
 - Alternatives Scan: [docs/research/alternatives-scan.md](docs/research/alternatives-scan.md)
-- ERD (Data Model): docs/architecture/erd-mvp-v1.md
+- Decision Log: [docs/roadmap/decision-log.md](docs/roadmap/decision-log.md)
+- ERD write-up: [docs/architecture/erd-mvp-v1.md](docs/architecture/erd-mvp-v1.md)
+- Pricing/Packaging Mock: [docs/gtm/pricing-packaging-v1.md](docs/gtm/pricing-packaging-v1.md)
