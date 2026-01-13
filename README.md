@@ -33,3 +33,4 @@ A multi-tenant workflow SaaS that automates recurring operational tasks with own
 - Risks & Assumptions: [docs/roadmap/risks-and-assumptions.md](docs/roadmap/risks-and-assumptions.md)
 - Release Plan v1: [docs/roadmap/release-plan-v1.md](docs/roadmap/release-plan-v1.md)
 - Alternatives Scan: [docs/research/alternatives-scan.md](docs/research/alternatives-scan.md)
+- ERD (Data Model): docs/architecture/erd-mvp-v1.md
