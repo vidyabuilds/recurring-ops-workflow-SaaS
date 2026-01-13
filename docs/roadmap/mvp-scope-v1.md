@@ -54,7 +54,7 @@ Ship the smallest product that reliably executes recurring work with clear owner
 
 **Member**
 6. My Tasks (Due Today / Upcoming / Overdue)
-7. Task details
+7. Task detail
 8. Completion confirmation / history view (simple)
 
 ## Data Model (v1 entities)
