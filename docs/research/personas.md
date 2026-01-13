@@ -1,4 +1,4 @@
-# Personas — Recurring Ops Workflow SaaS
+# Personas - Recurring Ops Workflow SaaS
 
 ## Primary Persona: Admin (Organizer)
 **Who:** The person accountable for recurring work getting done (house admin / ops lead).  
