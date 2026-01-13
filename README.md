@@ -13,3 +13,9 @@ A multi-tenant workflow SaaS that automates recurring operational tasks with own
 - [View full-size Opportunity Solution Tree](docs/assets/opportunity-solution-tree.jpg)
 
 ![Opportunity Solution Tree](docs/assets/opportunity-solution-tree.jpg)
+
+---
+## Key Artifact: User Journeys (FigJam)
+- [View full-size User Flows (MVP v1)](docs/assets/user-flows-mvp-v1.png)
+
+![User Flows — MVP v1](docs/assets/user-flows-mvp-v1.png)
