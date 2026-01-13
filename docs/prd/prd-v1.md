@@ -94,7 +94,7 @@ Reference: FigJam + exported image `docs/assets/user-flows-mvp-v1.png`
 - **Security (baseline):** authenticated access; roles enforced (Admin vs Member)
 
 ## 11) Analytics & Event Tracking (MVP)
-Reference: `docs/analytics/event-tracking-plan.md` (to be created)
+Reference: `docs/analytics/event-tracking-plan.md`
 
 Minimum events:
 - Admin: `workflow_create_started`, `tasks_generated`, `reminders_configured`, `workflow_published`
