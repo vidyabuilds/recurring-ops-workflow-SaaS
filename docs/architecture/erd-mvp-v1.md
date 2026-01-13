@@ -3,7 +3,7 @@
 ## Diagram
 - [View full-size ERD](../assets/erd-mvp-v1.png)
   
-[Open ERD image](/docs/assets/erd-mvp-v1.png)
+[View full-size ERD](/docs/assets/erd-mvp-v1.png.png)
 
 ## Notes (design intent)
 - Multi-tenancy is enforced via `workspace_id` (Workflows) and `Membership`.
