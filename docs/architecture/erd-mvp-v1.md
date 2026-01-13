@@ -1,7 +1,6 @@
 # ERD — MVP v1 Data Model
 
 ## Diagram
-- [View full-size ERD](../assets/erd-mvp-v1.png)
   
 [View full-size ERD](/docs/assets/erd-mvp-v1.png.png)
 
