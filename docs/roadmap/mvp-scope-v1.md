@@ -51,6 +51,7 @@ Ship the smallest product that reliably executes recurring work with clear owner
 
 ## Screens (v1)
 **Admin**
+
 1. Workspace setup (create workspace + invite members)
 2. Workflow create/edit
 3. Workflow preview (upcoming assignments)
@@ -58,6 +59,7 @@ Ship the smallest product that reliably executes recurring work with clear owner
 5. Workflow list (manage workflows)
 
 **Member**
+
 6. My Tasks (Due Today / Upcoming / Overdue)
 7. Task detail
 8. Completion confirmation / history view (simple)
