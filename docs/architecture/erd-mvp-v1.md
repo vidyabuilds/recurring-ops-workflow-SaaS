@@ -2,7 +2,7 @@
 
 ## Diagram
 - [View full-size ERD](../assets/erd-mvp-v1.png)
-
+  
 ![ERD — MVP v1](../assets/erd-mvp-v1.png)
 
 ## Notes (design intent)
